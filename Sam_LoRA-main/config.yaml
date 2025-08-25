@@ -1,0 +1,10 @@
+DATASET:
+  TRAIN_PATH: "/content/train_v2/"
+  TEST_PATH: "/content/test_v2/"
+
+SAM:
+  CHECKPOINT: "/content/sam_vit_b_01ec64.pth"
+  RANK: 16
+TRAIN:
+  BATCH_SIZE: 8
+  NUM_EPOCHS: 3
